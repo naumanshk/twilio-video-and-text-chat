@@ -1,0 +1,22 @@
+{
+  "name": "video-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-pino-logger": "^6.0.0",
+    "morgan": "^1.10.0",
+    "node-env-run": "^4.0.2",
+    "nodemon": "^2.0.7",
+    "twilio": "^3.57.0"
+  }
+}
